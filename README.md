@@ -1,6 +1,6 @@
-# AppLovin MAX - iOS Google Mediation Adapter
+# AppLovin MAX - iOS Helix Mediation Adapter
 
-The AppLovin MAX Google AdMob mediation adapter for iOS, distributed via Swift Package Manager.
+The AppLovin MAX Helix AdMob mediation adapter for iOS, distributed via Swift Package Manager.
 
 ## Requirements
 
@@ -15,17 +15,17 @@ The AppLovin MAX Google AdMob mediation adapter for iOS, distributed via Swift P
 1. In Xcode, choose **File > Add Package Dependencies…**
 2. Enter the repository URL:
    ```
-   https://github.com/AppLovin/AppLovin-MAX-Swift-Package-Google
+   https://github.com/AppLovin/AppLovin-MAX-Swift-Package-Helix
    ```
 3. Select **Exact Version** and enter the encoded version (e.g. `13040000.0.0` for adapter version `13.4.0.0`).
-4. Add the `AppLovinMediationGoogleAdapter` product to your app target.
+4. Add the `AppLovinMediationHelixAdapter` product to your app target.
 
 ### Package.swift
 
 ```swift
 dependencies: [
     .package(
-        url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package-Google.git",
+        url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package-Helix.git",
         exact: "13040000.0.0"
     )
 ]
@@ -34,7 +34,7 @@ dependencies: [
 ## Included dependencies
 
 - [`AppLovinSDK`](https://github.com/AppLovin/AppLovin-MAX-Swift-Package) (>= 13.0.0)
-- [`GoogleMobileAds`](https://github.com/googleads/swift-package-manager-google-mobile-ads) (pinned to the version certified for this adapter release)
+- [`VoodooAdn`](https://github.com/VoodooADN/ios-sdk-swiftpackage) (pinned to the version certified for this adapter release)
 
 ## More information
 
