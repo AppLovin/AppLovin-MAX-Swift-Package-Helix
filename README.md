@@ -1,6 +1,6 @@
 # AppLovin MAX - iOS Helix Mediation Adapter
 
-The AppLovin MAX Helix AdMob mediation adapter for iOS, distributed via Swift Package Manager.
+The AppLovin MAX Helix mediation adapter for iOS, distributed via Swift Package Manager.
 
 ## Requirements
 
