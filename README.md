@@ -4,7 +4,7 @@ The AppLovin MAX Helix mediation adapter for iOS, distributed via Swift Package 
 
 ## Requirements
 
-- iOS 13.0+
+- iOS 14.0+
 - Xcode 15.0+
 - AppLovin MAX iOS SDK 13.0.0+
 
@@ -17,7 +17,7 @@ The AppLovin MAX Helix mediation adapter for iOS, distributed via Swift Package 
    ```
    https://github.com/AppLovin/AppLovin-MAX-Swift-Package-Helix
    ```
-3. Select **Exact Version** and enter the encoded version (e.g. `13040000.0.0` for adapter version `13.4.0.0`).
+3. Select **Exact Version** and enter the encoded version (e.g. `4300200.0.0` for adapter version `4.30.2.0`).
 4. Add the `AppLovinMediationHelixAdapter` product to your app target.
 
 ### Package.swift
@@ -26,7 +26,7 @@ The AppLovin MAX Helix mediation adapter for iOS, distributed via Swift Package 
 dependencies: [
     .package(
         url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package-Helix.git",
-        exact: "13040000.0.0"
+        exact: "4300200.0.0"
     )
 ]
 ```

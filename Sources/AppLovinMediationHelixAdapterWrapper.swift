@@ -1,6 +1,6 @@
 //
-//  AppLovinMediationGoogleAdapterWrapper.swift
-//  AppLovinMediationGoogleAdapter
+//  AppLovinMediationHelixAdapterWrapper.swift
+//  AppLovinMediationHelixAdapter
 //
 //  Copyright © 2026 AppLovin. All rights reserved.
 //
